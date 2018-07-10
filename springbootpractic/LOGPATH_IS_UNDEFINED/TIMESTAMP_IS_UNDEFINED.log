@@ -1,2 +1,0 @@
-16:45:25.937 [main] INFO  c.j.s.practice.log.Log4jTest - info 成功了
-16:45:25.940 [main] ERROR c.j.s.practice.log.Log4jTest - error 成功了

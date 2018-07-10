@@ -1,6 +1,7 @@
 package com.jiangshui.springbootpractic.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.jiangshui.springbootpractic.service.ServiceTest;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
 
      @Reference(version = "2.0.1")
-     com.jiangshui.springbootpractic.service.serviceTest serviceTest;
+    ServiceTest serviceTest;
 
     @ResponseBody
     @RequestMapping("/hi")
