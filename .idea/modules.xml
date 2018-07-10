@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springbootdubbo/springbootdubbo.iml" filepath="$PROJECT_DIR$/springbootdubbo/springbootdubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootpractic/springbootpractic.iml" filepath="$PROJECT_DIR$/springbootpractic/springbootpractic.iml" />
+    </modules>
+  </component>
+</project>
